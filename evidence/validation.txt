@@ -1,0 +1,17 @@
+검증일: 2026-11-12 (Asia/Seoul)
+실행 환경: WSL Ubuntu / 기존 week7 가상환경
+
+$ python build_kb.py  # 첫 번째 실행
+  manual/guide.txt → 1
+  notes/long_notes.txt → 6
+  notes/notes.txt → 3
+적재 10 조각 · 총 10
+
+$ python build_kb.py  # 두 번째 실행
+  manual/guide.txt → 1
+  notes/long_notes.txt → 6
+  notes/notes.txt → 3
+적재 10 조각 · 총 10
+
+$ python check_schema.py  # 수정한 제출 스키마로 실행
+정의서와 실제 일치 — 1536 Cosine
